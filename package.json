@@ -1,0 +1,19 @@
+{
+  "name": "elasticsearch-action",
+  "version": "1.0.0",
+  "description": "Github action to do CRUD in elasticsearch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiTae/elasticsearch-action.git"
+  },
+  "author": "rami.tae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RamiTae/elasticsearch-action/issues"
+  },
+  "homepage": "https://github.com/RamiTae/elasticsearch-action#readme"
+}
