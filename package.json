@@ -18,5 +18,8 @@
   "homepage": "https://github.com/RamiTae/elasticsearch-action#readme",
   "devDependencies": {
     "dotenv": "^16.0.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0"
   }
 }
