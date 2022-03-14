@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RamiTae/elasticsearch-action/issues"
   },
-  "homepage": "https://github.com/RamiTae/elasticsearch-action#readme"
+  "homepage": "https://github.com/RamiTae/elasticsearch-action#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
