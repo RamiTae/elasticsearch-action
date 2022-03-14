@@ -4,7 +4,13 @@
   "description": "Github action to do CRUD in elasticsearch.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   },
   "repository": {
     "type": "git",
@@ -18,7 +24,11 @@
   "homepage": "https://github.com/RamiTae/elasticsearch-action#readme",
   "devDependencies": {
     "dotenv": "^16.0.0",
-    "jest": "^27.5.1"
+    "eslint": "^8.11.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.5",
+    "prettier": "2.5.1"
   },
   "dependencies": {
     "@actions/core": "^1.6.0"
